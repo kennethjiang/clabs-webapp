@@ -24,6 +24,9 @@ gem 'bootstrap-sass'
 gem 'autoprefixer-rails'
 gem 'omniauth-facebook'
 
+gem 'paperclip'
+gem 'aws-sdk'
+
 gem 'pg', group: :production
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
