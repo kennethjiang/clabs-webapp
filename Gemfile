@@ -29,6 +29,7 @@ gem 'aws-sdk'
 
 gem 'pg', group: :production
 gem 'airbrake', group: :production
+gem 'newrelic_rpm', group: :production
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
