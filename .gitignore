@@ -37,3 +37,6 @@ pickle-email-*.html
 
 # script to set up dev box
 /devscripts
+
+/.byebug_history
+/.pry_history
