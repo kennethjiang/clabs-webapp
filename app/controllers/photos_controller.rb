@@ -4,7 +4,7 @@ class PhotosController < ApplicationController
   # GET /photos
   # GET /photos.json
   def index
-    @photos = Photo.includes(:user).all
+    @photos = Photo.includes(:user).page(params[:page]).per(6)
   end
 
   # GET /photos/1
