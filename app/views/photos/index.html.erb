@@ -23,7 +23,12 @@
           <%= image_tag(photo.file.url(:medium), class: "img-responsive") %>
         </a>
           <h4>
-            <%= photo.user.name %>
+            <% if photo.user %>
+              <%= photo.user.name %>
+            <% else %>
+               Anonymous
+            <% end %>
+
           </h4>
       </div>
       <% if i%3 == 2 || i == (@photos.length-1) %>
